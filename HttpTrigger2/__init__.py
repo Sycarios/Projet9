@@ -10,10 +10,10 @@ import random
 import pickle
 
 #read our csv
-df=pd.read_csv('data/df.csv')
+df=pd.read_csv('HttpTrigger2/df.csv')
 
 #open our embedding
-with open('data/articles_embeddings.pickle','rb') as embedd:
+with open('HttpTrigger2/articles_embeddings.pickle','rb') as embedd:
     embedding=pickle.load(embedd)
 
 # Start Functions
